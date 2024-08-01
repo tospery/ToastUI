@@ -96,7 +96,7 @@ struct BuiltInToastViewStyleExample: View {
             .toastViewStyle(.warning)
         case .information:
           ToastView("Information")
-            .toastViewStyle(.information)
+                .toastViewStyle(.information)
         }
       }
       .toastDimmedBackground(dimmedBackground)
